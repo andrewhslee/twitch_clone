@@ -5,7 +5,6 @@ import { createStream } from '../../actions';
 import StreamForm from './StreamForm';
 
 class StreamNew extends Component {
-    // does not need to pass event 
     onSubmit = (formValues) => {
         this.props.createStream(formValues);
     }
